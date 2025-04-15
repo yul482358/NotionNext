@@ -37,18 +37,32 @@ module.exports = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: '我用什么把你留住',
+      artist: '福禄寿FloruitShow',
+      url: 'https://music.163.com/song/media/outer/url?id=1306923998.mp3',
       cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'http://p1.music.126.net/RMYmJlVF2Fuvg2hmJNlmHA==/109951167343222893.jpg?param=130y130'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '此处通往天空',
+      artist: 'inosoo',
+      url: 'https://music.163.com/song/media/outer/url?id=1927451629.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'http://p1.music.126.net/jykGX9hfdsyvIBj-pVu9nQ==/109951167178199562.jpg?param=130y130'
+    },
+    {
+     name: '世间美好与你环环相扣',
+     artist: '柏松',
+     url: 'https://music.163.com/song/media/outer/url?id=1363948882.mp3',
+     cover:
+       'http://p2.music.126.net/DK1_4sP_339o5rowMdPXdw==/109951164071024476.jpg?param=130y130'
+    },
+    {
+      name: '理想三旬',
+      artist: '陈鸿宇',
+      url: 'https://music.163.com/song/media/outer/url?id=31445772.mp3',
+      cover:
+        'http://p2.music.126.net/ryk8Gu64rOhlYn0pc2Q8Ww==/109951168090271827.jpg?param=130y130'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
